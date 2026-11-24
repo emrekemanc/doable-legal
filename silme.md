@@ -45,7 +45,9 @@ Silme işlemi kalıcıdır ve geri alınamaz.
 | Giriş ve güvenlik kayıtları (Supabase, Cloudflare) | Sağlayıcının kısa süreli günlük süresi kadar |
 | Reklam verisi (Google AdMob) | Google'ın kendi politikasına göre |
 
-Yalnız çıkış yapmak hesabını silmez. Apple ile giriş yaptıysan bağlantıyı iPhone Ayarlar → [adın] → Apple ile Giriş bölümünden de kaldırabilirsin.
+Yalnız çıkış yapmak hesabını silmez.
+
+Apple ile giriş yaptıysan uygulama silmeden önce Apple onayını ister. Sonra Doable'ın Apple bağlantısını Apple'da iptal eder. Bağlantıyı iPhone Ayarlar → [adın] → Apple ile Giriş bölümünden de kaldırabilirsin.
 
 ## English
 
@@ -84,4 +86,6 @@ Deletion is permanent. You cannot undo it.
 | Sign-in and security logs (Supabase, Cloudflare) | The provider's short log period |
 | Ad data (Google AdMob) | Under Google's own policy |
 
-Signing out does not delete your account. If you used Apple sign-in, you can also remove the link in iPhone Settings → [your name] → Sign in with Apple.
+Signing out does not delete your account.
+
+If you used Apple sign-in, the app asks for Apple confirmation before deletion. Then it revokes Doable's link in your Apple account. You can also remove the link in iPhone Settings → [your name] → Sign in with Apple.

@@ -69,7 +69,7 @@ Verin yalnız uygulamanın çalışması için şu sağlayıcılara gider:
 | Google Firebase | Çökme raporu ve bildirim | ABD ve diğer ülkeler |
 | Google AdMob | Reklam | ABD ve diğer ülkeler |
 | Cloudflare Turnstile | Bot kontrolü | Dünya geneli |
-| Google Gmail | Giriş kodu e-postası | ABD ve diğer ülkeler |
+| Resend | Giriş kodu e-postası | ABD |
 | Google, Apple | Yalnız o yöntemle giriş yaparsan | ABD ve diğer ülkeler |
 
 **Yurt dışına aktarım:** Bu sağlayıcıların sunucuları Türkiye dışındadır. Aktarımı KVKK m. 9 ve GDPR Bölüm V kurallarına göre yaparız. Sağlayıcıların veri işleme sözleşmelerine ve standart sözleşme hükümlerine dayanırız.
@@ -190,7 +190,7 @@ Your data goes only to these providers, only to run the app:
 | Google Firebase | Crash reports and notifications | USA and other countries |
 | Google AdMob | Ads | USA and other countries |
 | Cloudflare Turnstile | Bot check | Worldwide |
-| Google Gmail | Sign-in code email | USA and other countries |
+| Resend | Sign-in code email | USA |
 | Google, Apple | Only if you sign in with them | USA and other countries |
 
 **International transfers:** Some providers process data outside your country. We transfer data under GDPR Chapter V and KVKK Art. 9. We rely on the providers' data processing agreements and standard contractual clauses.
