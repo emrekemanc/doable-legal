@@ -1,23 +1,91 @@
 ---
-title: Doable Hesap Silme
+title: Doable – Hesap silme / Account deletion
 ---
 
 # Hesap silme / Account deletion
 
+[English version below](#english)
+
+Bu sayfa Muhammet Emre Kemancı'nın geliştirdiği **Doable** uygulaması içindir.
+
 ## Türkçe
 
-1. Doable uygulamasını aç.
-2. Profil → Hesap sayfasını aç.
-3. "Hesabı sil" seçeneğine dokun.
-4. Onayla.
+### Uygulamadan sil
 
-Hesabın, buluttaki bütün görev, etkinlik ve ayarların kalıcı olarak silinir. Cihazdaki veriler de silinir. Uygulamaya erişemiyorsan k.emre.k25@gmail.com adresine giriş e-postanla yaz. Talebini 30 gün içinde işleriz.
+1. Doable uygulamasını aç ve giriş yap.
+2. Profil sekmesini aç.
+3. Hesap satırına dokun.
+4. "Hesabı sil" seçeneğine dokun.
+5. Onayla. İnternet bağlantın açık olmalı.
+
+```
+Profil ─► Hesap ─► Hesabı sil ─► Onayla ─► Giriş ekranı
+```
+
+### Uygulamaya erişemiyorsan
+
+1. k.emre.k25@gmail.com adresine giriş e-postanla yaz.
+2. Konuya "Hesap silme" yaz.
+3. Talebini en geç 30 gün içinde işleriz ve sana bildiririz.
+
+### Silinen veriler
+
+- Hesabın, e-posta adresin ve adın.
+- Buluttaki bütün görevler, kategoriler, takvimler, etkinlikler, günlük kayıtlar ve ayarlar.
+- Bildirim adresin (push token).
+- Cihazdaki Doable veritabanı (uygulamadan silersen).
+
+Silme işlemi kalıcıdır ve geri alınamaz.
+
+### Kalan veriler
+
+| Veri | Süre |
+|---|---|
+| Çökme raporları (Firebase Crashlytics) | En fazla 90 gün, sonra kendiliğinden silinir |
+| Giriş ve güvenlik kayıtları (Supabase, Cloudflare) | Sağlayıcının kısa süreli günlük süresi kadar |
+| Reklam verisi (Google AdMob) | Google'ın kendi politikasına göre |
+
+Yalnız çıkış yapmak hesabını silmez.
+
+Apple ile giriş yaptıysan uygulama silmeden önce Apple onayını ister. Sonra Doable'ın Apple bağlantısını Apple'da iptal eder. Bağlantıyı iPhone Ayarlar → [adın] → Apple ile Giriş bölümünden de kaldırabilirsin.
 
 ## English
 
-1. Open the Doable app.
-2. Go to Profile → Account.
-3. Tap "Delete account".
-4. Confirm.
+### Delete in the app
 
-Your account and all tasks, events and settings in the cloud are deleted permanently. Data on the device is deleted too. If you cannot open the app, email k.emre.k25@gmail.com from your sign-in address. We process the request within 30 days.
+1. Open the Doable app and sign in.
+2. Open the Profile tab.
+3. Tap Account.
+4. Tap "Delete account".
+5. Confirm. You must be online.
+
+```
+Profile ─► Account ─► Delete account ─► Confirm ─► Sign-in screen
+```
+
+### If you cannot open the app
+
+1. Email k.emre.k25@gmail.com from your sign-in address.
+2. Use the subject "Account deletion".
+3. We process the request within 30 days and tell you.
+
+### Data we delete
+
+- Your account, email address and name.
+- All tasks, categories, calendars, events, daily logs and settings in the cloud.
+- Your push token.
+- The Doable database on your device (when you delete in the app).
+
+Deletion is permanent. You cannot undo it.
+
+### Data we keep
+
+| Data | Period |
+|---|---|
+| Crash reports (Firebase Crashlytics) | Up to 90 days, then deleted automatically |
+| Sign-in and security logs (Supabase, Cloudflare) | The provider's short log period |
+| Ad data (Google AdMob) | Under Google's own policy |
+
+Signing out does not delete your account.
+
+If you used Apple sign-in, the app asks for Apple confirmation before deletion. Then it revokes Doable's link in your Apple account. You can also remove the link in iPhone Settings → [your name] → Sign in with Apple.
